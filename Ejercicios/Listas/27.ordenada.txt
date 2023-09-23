@@ -1,0 +1,3 @@
+ordenada([]):-!.
+ordenada([_]):-!.
+ordenada([X, Y|Xs]):-X < Y,ordenada([Y|Xs]).
